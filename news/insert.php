@@ -1,7 +1,7 @@
 <?php
 require"connection.php";
-$nama="johnny";
-$pass="serah";
+$nama="root";
+$pass="";
 
 $sql_query = "INSERT INTO login (username,password) VALUES('$nama','$pass')";
 
